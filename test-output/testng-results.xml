@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HELLO]]>
+    </line>
+    <line>
+      <![CDATA[HELLO I am testing Maven]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55" started-at="2020-01-15T05:46:07Z" finished-at="2020-01-15T05:46:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55" started-at="2020-01-15T05:46:07Z" finished-at="2020-01-15T05:46:07Z">
+      <class name="tests.DemoTest">
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.DemoTest@f5e5e3]" name="openMyBlog" duration-ms="25" started-at="2020-01-15T11:16:07Z" finished-at="2020-01-15T11:16:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HELLO]]>
+            </line>
+            <line>
+              <![CDATA[HELLO I am testing Maven]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+      </class> <!-- tests.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
