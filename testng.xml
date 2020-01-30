@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="tests.DemoTest"/>
+      <class name="tests.TestNGExample"/>
       <class name="webdriver.tests.WebdriverHandleTest"/>
     </classes>
   </test> <!-- Test -->
