@@ -7,7 +7,7 @@
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-		<!-- First Selenium Dependencies -->
+		<!-- First Selenium Dependencies second time trigger -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
