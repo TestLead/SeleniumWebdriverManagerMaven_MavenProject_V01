@@ -1,17 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[HELLO]]>
+    </line>
+    <line>
+      <![CDATA[HELLO I am testing Maven]]>
+    </line>
+    <line>
+      <![CDATA[Start Flip cart home page]]>
+    </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="365" started-at="2020-02-02T10:37:12Z" finished-at="2020-02-02T10:37:12Z">
+  <suite name="Suite" duration-ms="108148" started-at="2020-02-02T11:09:31Z" finished-at="2020-02-02T11:11:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="365" started-at="2020-02-02T10:37:12Z" finished-at="2020-02-02T10:37:12Z">
+    <test name="Test" duration-ms="108148" started-at="2020-02-02T11:09:31Z" finished-at="2020-02-02T11:11:19Z">
+      <class name="tests.DemoTest">
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.DemoTest@1938003]" name="openMyBlog" duration-ms="185" started-at="2020-02-02T16:39:31Z" finished-at="2020-02-02T16:39:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HELLO]]>
+            </line>
+            <line>
+              <![CDATA[HELLO I am testing Maven]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+      </class> <!-- tests.DemoTest -->
+      <class name="tests.TestNGExample">
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.TestNGExample@1a561cf]" name="test" duration-ms="71109" started-at="2020-02-02T16:39:31Z" finished-at="2020-02-02T16:40:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Start Flip cart home page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- tests.TestNGExample -->
+      <class name="webdriver.tests.WebdriverHandleTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:webdriver.tests.WebdriverHandleTest@646153]" name="test" duration-ms="36505" started-at="2020-02-02T16:40:42Z" finished-at="2020-02-02T16:41:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- webdriver.tests.WebdriverHandleTest -->
       <class name="tests.TestClass5">
-        <test-method status="PASS" signature="test5()[pri:0, instance:tests.TestClass5@8a102f]" name="test5" duration-ms="145" started-at="2020-02-02T16:07:12Z" finished-at="2020-02-02T16:07:12Z">
+        <test-method status="PASS" signature="test5()[pri:0, instance:tests.TestClass5@1b062a]" name="test5" duration-ms="8" started-at="2020-02-02T16:39:31Z" finished-at="2020-02-02T16:39:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5 -->
       </class> <!-- tests.TestClass5 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.TestClass3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:tests.TestClass3@b1cc93]" name="test3" duration-ms="6" started-at="2020-02-02T16:39:31Z" finished-at="2020-02-02T16:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- tests.TestClass3 -->
+      <class name="tests.TestClass4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:tests.TestClass4@13b5d16]" name="test4" duration-ms="6" started-at="2020-02-02T16:39:31Z" finished-at="2020-02-02T16:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- tests.TestClass4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
