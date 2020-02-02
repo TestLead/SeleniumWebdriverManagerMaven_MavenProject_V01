@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="tests.DemoTest"/>
+      <class name="tests.TestClass5"/>
       <class name="tests.TestClass4"/>
       <class name="tests.TestClass3"/>
       <class name="tests.TestNGExample"/>
