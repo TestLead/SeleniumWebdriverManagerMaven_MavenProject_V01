@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
+    <line>
+      <![CDATA[HELLO]]>
+    </line>
+    <line>
+      <![CDATA[HELLO I am testing Maven]]>
+    </line>
     <line>
       <![CDATA[Start Flip cart home page]]>
     </line>
+    <line>
+      <![CDATA[Hello]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1108" started-at="2020-02-03T06:56:03Z" finished-at="2020-02-03T06:56:04Z">
+  <suite name="Suite" duration-ms="44696" started-at="2020-02-03T07:07:07Z" finished-at="2020-02-03T07:07:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1108" started-at="2020-02-03T06:56:03Z" finished-at="2020-02-03T06:56:04Z">
+    <test name="Test" duration-ms="44696" started-at="2020-02-03T07:07:07Z" finished-at="2020-02-03T07:07:52Z">
+      <class name="tests.DemoTest">
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.DemoTest@1938003]" name="openMyBlog" duration-ms="317" started-at="2020-02-03T12:37:07Z" finished-at="2020-02-03T12:37:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HELLO]]>
+            </line>
+            <line>
+              <![CDATA[HELLO I am testing Maven]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+      </class> <!-- tests.DemoTest -->
       <class name="tests.TestNGExample">
-        <test-method status="PASS" signature="test()[pri:0, instance:tests.TestNGExample@12bf671]" name="test" duration-ms="437" started-at="2020-02-03T12:26:03Z" finished-at="2020-02-03T12:26:04Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.TestNGExample@1a561cf]" name="test" duration-ms="5" started-at="2020-02-03T12:37:08Z" finished-at="2020-02-03T12:37:08Z">
           <reporter-output>
             <line>
               <![CDATA[Start Flip cart home page]]>
@@ -18,6 +39,33 @@
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- tests.TestNGExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="webdriver.tests.WebdriverHandleTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:webdriver.tests.WebdriverHandleTest@646153]" name="test" duration-ms="43808" started-at="2020-02-03T12:37:08Z" finished-at="2020-02-03T12:37:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- webdriver.tests.WebdriverHandleTest -->
+      <class name="tests.TestClass5">
+        <test-method status="PASS" signature="test5()[pri:0, instance:tests.TestClass5@1b062a]" name="test5" duration-ms="9" started-at="2020-02-03T12:37:08Z" finished-at="2020-02-03T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- tests.TestClass5 -->
+      <class name="tests.TestClass3">
+        <test-method status="PASS" signature="test3()[pri:0, instance:tests.TestClass3@b1cc93]" name="test3" duration-ms="9" started-at="2020-02-03T12:37:08Z" finished-at="2020-02-03T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- tests.TestClass3 -->
+      <class name="tests.TestClass4">
+        <test-method status="PASS" signature="test4()[pri:0, instance:tests.TestClass4@13b5d16]" name="test4" duration-ms="7" started-at="2020-02-03T12:37:08Z" finished-at="2020-02-03T12:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- tests.TestClass4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
